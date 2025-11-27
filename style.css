@@ -267,33 +267,47 @@ img{
             0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.footbal-container {
-    background-color: rgb(247, 247, 247);
-    padding: 30px;
-    border: 1px solid gray;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
-    font-size: 20px;
+.football-container {
+  background-color: rgb(247, 247, 247);
+  padding: 30px;
+  border: 1px solid gray;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),
+              0px 1px 1px 0px rgba(0,0,0,0.14),
+              0px 1px 3px 0px rgba(0,0,0,0.12);
+  border-radius: 20px;
+  font-size: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
-.footbal-text {
-    margin-top: 30px;
-    padding-bottom: 30px;
+
+.football-text {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  line-height: 1.45;
 }
-.footbal-img{
-    margin: 25px auto;
-    width: 600px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+
+.football-img {
+  margin: 25px auto;
+  display: block;
+  max-width: 100%;
+  width: 600px;
+  height: auto; 
+  box-shadow: rgba(0,0,0,0.08) 0 2px 8px;
+  border-radius: 8px;
 }
-.footbal-list{
-    list-style: square;
-    margin-left: 20px;
+
+
+.football-list {
+  list-style: square;
+  margin-left: 24px;
+  padding-left: 0;
 }
-.footbal-item{
-    margin-top: 10px;
+
+.football-item {
+  margin-top: 12px;
+  margin-bottom: 6px;
 }
+
 
 .messi-container {
     background-color: rgb(247, 247, 247);
@@ -336,7 +350,7 @@ img{
     padding-bottom: 30px;
 }
 .el_classico-img{
-    margin: 25px auto;
+    padding-top:50px;
     width: 600px;
     height: 100%;
     display: flex;
